@@ -40,6 +40,12 @@
     <Compile Include="chapter8\cars.py" />
     <Compile Include="chapter8\ImagesFromGoogle.py" />
     <Compile Include="chapter8\PredictCar.py" />
+    <Compile Include="chapter9\AutoEncoder.py" />
+    <Compile Include="chapter9\CnnAutoEncoder.py" />
+    <Compile Include="chapter9\CnnColorization.py" />
+    <Compile Include="chapter9\PredictColored.py" />
+    <Compile Include="chapter9\PredictVectorCnnDigits.py" />
+    <Compile Include="chapter9\PredictVectorDigits.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="chapter1\" />
@@ -50,6 +56,8 @@
     <Folder Include="chapter6\" />
     <Folder Include="chapter7\" />
     <Folder Include="chapter8\" />
+    <Folder Include="chapter9\" />
+    <Folder Include="chapter9\saved_images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter2\Addition.ipynb" />
@@ -64,6 +72,20 @@
     <Content Include="chapter8\changed_vgg16.json" />
     <Content Include="chapter8\modelCars.h5" />
     <Content Include="chapter8\modelCars.json" />
+    <Content Include="chapter9\colorImages.png" />
+    <Content Include="chapter9\colorization_model.h5" />
+    <Content Include="chapter9\colorization_model.json" />
+    <Content Include="chapter9\first_model.png" />
+    <Content Include="chapter9\grayImages.jpg" />
+    <Content Include="chapter9\grayImages.png" />
+    <Content Include="chapter9\images.png" />
+    <Content Include="chapter9\ResultImages.png" />
+    <Content Include="chapter9\saved_images\test_color.png" />
+    <Content Include="chapter9\saved_images\test_gray.png" />
+    <Content Include="chapter9\vector_cnn_model.h5" />
+    <Content Include="chapter9\vector_cnn_model.json" />
+    <Content Include="chapter9\vector_model.h5" />
+    <Content Include="chapter9\vector_model.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
