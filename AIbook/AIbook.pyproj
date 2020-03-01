@@ -31,6 +31,8 @@
   <ItemGroup>
     <Folder Include="chapter1\" />
     <Folder Include="chapter2\" />
+    <Folder Include="chapter3\" />
+    <Folder Include="chapter4\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter2\Addition.ipynb" />
