@@ -27,12 +27,21 @@
     </Compile>
     <Compile Include="chapter2\backpropegation.py" />
     <Compile Include="chapter2\feedforword.py" />
+    <Compile Include="chapter3\MnistKeras.py" />
+    <Compile Include="chapter4\OptimizeHyperParameters.py" />
+    <Compile Include="chapter4\overfitting.py" />
+    <Compile Include="chapter4\predict.py" />
+    <Compile Include="chapter4\SaveImagesAndNetwork.py" />
+    <Compile Include="chapter5\cifer10.py" />
+    <Compile Include="chapter5\data_augmentation.py" />
+    <Compile Include="chapter5\printCIfer10.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="chapter1\" />
     <Folder Include="chapter2\" />
     <Folder Include="chapter3\" />
     <Folder Include="chapter4\" />
+    <Folder Include="chapter5\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter2\Addition.ipynb" />
