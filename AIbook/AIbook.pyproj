@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a240e8b-e071-467d-85ac-c7794bb5e793</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AIbook.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +22,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AIbook.py" />
-    <Compile Include="chapter1\module1.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="chapter2\backpropegation.py" />
     <Compile Include="chapter2\feedforword.py" />
     <Compile Include="chapter3\MnistKeras.py" />
@@ -35,6 +32,11 @@
     <Compile Include="chapter5\cifer10.py" />
     <Compile Include="chapter5\data_augmentation.py" />
     <Compile Include="chapter5\printCIfer10.py" />
+    <Compile Include="chapter6\Boston_housing.py" />
+    <Compile Include="chapter6\Sound.py" />
+    <Compile Include="chapter6\SoundCategory.py" />
+    <Compile Include="chapter7\FunctionalAPI.py" />
+    <Compile Include="chapter7\predictFunctionalAPI.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="chapter1\" />
@@ -42,12 +44,18 @@
     <Folder Include="chapter3\" />
     <Folder Include="chapter4\" />
     <Folder Include="chapter5\" />
+    <Folder Include="chapter6\" />
+    <Folder Include="chapter7\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter2\Addition.ipynb" />
     <Content Include="chapter2\feedforword.ipynb" />
     <Content Include="chapter2\matrix.ipynb" />
     <Content Include="chapter2\Transpose.ipynb" />
+    <Content Include="chapter7\fiat.jpg" />
+    <Content Include="chapter7\functionalAPI.png" />
+    <Content Include="chapter7\modelFunctionalAPI.json" />
+    <Content Include="chapter7\weights.best.hdf5" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
