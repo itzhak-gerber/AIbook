@@ -25,9 +25,18 @@
     <Compile Include="chapter1\module1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="chapter2\backpropegation.py" />
+    <Compile Include="chapter2\feedforword.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="chapter1\" />
+    <Folder Include="chapter2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chapter2\Addition.ipynb" />
+    <Content Include="chapter2\feedforword.ipynb" />
+    <Content Include="chapter2\matrix.ipynb" />
+    <Content Include="chapter2\Transpose.ipynb" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
